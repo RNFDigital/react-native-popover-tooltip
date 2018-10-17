@@ -290,8 +290,7 @@ class PopoverTooltip extends React.PureComponent<Props, State> {
       <TouchableOpacity
         ref={this.wrapperRef}
         style={this.props.componentWrapperStyle}
-        onPress={this.props.onPress}
-        onLongPress={this.toggle}
+        onPress={this.toggle}
         delayLongPress={this.props.delayLongPress}
         activeOpacity={1.0}
       >
